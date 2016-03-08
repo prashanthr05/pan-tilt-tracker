@@ -3,7 +3,7 @@ Visual tracking of objects using a 2-DOF Pan Tilt Shooter
 
 Work Done by : Prashanth Ramadoss and Venkatasai Yeshasvi Tirupachuri
 
-Affiliation: Ecole Centrale de Nantes
+Affiliation: Ecole Centrale de Nantes, 2013-2014
 
 
 This project was aimed at modeling of a 2-DOF pan tilt shooter. 
