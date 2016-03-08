@@ -1,0 +1,8 @@
+prefix=/home/yeshi/catkin_ws/src/transform/devel
+
+Name: transform
+Description: Description of transform
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/yeshi/catkin_ws/src/transform/devel/lib 
+Requires: 

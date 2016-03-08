@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "control")
+set(control_MAINTAINER "aura <aura@todo.todo>")
+set(control_DEPRECATED "")
+set(control_VERSION "0.0.0")
+set(control_BUILD_DEPENDS "roscpp" "geometry_msgs" "tf")
+set(control_RUN_DEPENDS "geometry_msgs" "roscpp" "tf")
+set(control_BUILDTOOL_DEPENDS "catkin")

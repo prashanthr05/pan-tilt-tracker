@@ -1,0 +1,8 @@
+prefix=/home/yeshi/catkin_ws/src/control/devel
+
+Name: control
+Description: Description of control
+Version: 0.0.0
+Cflags: -I/home/yeshi/catkin_ws/src/control/include
+Libs: -L/home/yeshi/catkin_ws/src/control/devel/lib -lcontrol
+Requires: roscpp

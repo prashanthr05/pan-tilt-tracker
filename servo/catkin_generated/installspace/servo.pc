@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: servo
+Description: Description of servo
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lservo
+Requires: roscpp std_msgs tf

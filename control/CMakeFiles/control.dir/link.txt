@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC    -shared -Wl,-soname,libcontrol.so -o devel/lib/libcontrol.so CMakeFiles/control.dir/src/dynamixel.c.o CMakeFiles/control.dir/src/dxl_hal.c.o 

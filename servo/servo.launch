@@ -1,0 +1,41 @@
+<launch>
+
+<param name="robot_description" command="cat $(find servo)/model.xml" />
+<param name = "/use_gui" value="True" />
+
+
+<!--Servo Node-->
+<node pkg="servo" type="servo_node" name="servo" output="screen">
+</node>
+
+
+<!--Joint State Publisher node-->
+<node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
+<param name="publish_frequency" value="5.0"/>
+</node>
+
+<!--Transform Node-->
+<node pkg="transform" type="transform_node" name="transform" output="screen">
+</node>
+
+
+
+<!--Control Node-->
+<node pkg="control" type="control_node" name="control" output="screen">
+</node>
+
+
+<node  pkg="uvc_camera" type="camera_node" name="uvc_camera"  ns="camera" output="screen">
+	   
+    		<param name="fps" type="int" value="30" />
+    		<param name="frame" type="string" value="webcam" />
+    		<param name="device" type="string" value="/dev/video1" />
+ </node>
+
+<node pkg ="vision" type="vision_node" name = "vision" output = "screen" >
+<remap from="/tracking/camera/image_raw" to="/camera/image_raw"/>
+
+</node> 
+
+
+</launch>

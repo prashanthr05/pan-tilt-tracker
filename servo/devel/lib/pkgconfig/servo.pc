@@ -1,0 +1,8 @@
+prefix=/home/yeshi/catkin_ws/src/servo/devel
+
+Name: servo
+Description: Description of servo
+Version: 0.0.0
+Cflags: -I/home/yeshi/catkin_ws/src/servo/include
+Libs: -L/home/yeshi/catkin_ws/src/servo/devel/lib -lservo
+Requires: roscpp std_msgs tf

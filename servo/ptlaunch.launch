@@ -1,0 +1,15 @@
+<launch>
+
+
+
+
+<!--Servo node-->
+<node pkg="servo" type="servo_node" name="servo" output="screen">
+</node>
+  
+
+	
+
+
+</launch>
+

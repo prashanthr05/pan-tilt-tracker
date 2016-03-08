@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yeshi/catkin_ws/src/servo/src/dxl_hal.c
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+fcntl.h
+-
+termios.h
+-
+linux/serial.h
+-
+sys/ioctl.h
+-
+sys/time.h
+-
+servo/dxl_hal.h
+/home/yeshi/catkin_ws/src/servo/src/servo/dxl_hal.h
+
+/home/yeshi/catkin_ws/src/servo/src/dynamixel.c
+servo/dynamixel.h
+/home/yeshi/catkin_ws/src/servo/src/servo/dynamixel.h
+servo/dxl_hal.h
+/home/yeshi/catkin_ws/src/servo/src/servo/dxl_hal.h
+
+include/servo/dxl_hal.h
+
+include/servo/dynamixel.h
+

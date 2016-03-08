@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC    -shared -Wl,-soname,libservo.so -o devel/lib/libservo.so CMakeFiles/servo.dir/src/dynamixel.c.o CMakeFiles/servo.dir/src/dxl_hal.c.o 

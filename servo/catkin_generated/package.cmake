@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "servo")
+set(servo_MAINTAINER "yeshi <yeshi@todo.todo>")
+set(servo_DEPRECATED "")
+set(servo_VERSION "0.0.0")
+set(servo_BUILD_DEPENDS "roscpp" "std_msgs" "tf")
+set(servo_RUN_DEPENDS "roscpp" "std_msgs" "tf")
+set(servo_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yeshi/catkin_ws/src/transform/devel/setup.sh
